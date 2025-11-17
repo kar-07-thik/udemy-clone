@@ -1,0 +1,137 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+  font-family: 'gabarito',sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+gap: 10px;
+align-items: center;
+
+}
+.navbar__s1-title{
+    color: rgb(185, 6, 185);
+}
+.navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    display: flex;
+    gap: 10px;
+}
+.categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 10px;
+    border-bottom: solid 1px black;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+.categories p{
+    background-color: rgb(198, 5, 198);
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+.categories p:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(198, 5, 198);
+    
+}
+.saleimage img{
+    width: 100%;
+}
+.recommended{
+    padding: 10px;
+
+}
+.course-card{
+    width: 300px;
+
+}
+.course-card img{
+    width: 100%;
+    height: 150px;
+    
+}
+.recommended__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.topics{
+    padding: 10px;
+}
+.topics__container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+
+}
+.topics__container p{
+    padding: 10px;
+    border: solid black 2px;
+    border-radius: 2px;
+    flex-grow: 1;
+flex-basis: 25%;
+
+}
+.mostpopular__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+justify-content: space-between;
+    flex-grow: 1;
+    margin: 20px;
+}
+.footer{
+background-color: black;
+color: white;
+}
+.footer__one,.footer__two{
+    display: inline-block;
+    margin: 20px;
+    
+}
+.footer__one  p,.footer__two p{
+    padding: 5px;
+}
+.footer__ender{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 0px;
+    align-items: center;
+}
