@@ -47,6 +47,29 @@ background-color: white;
     display: flex;
     gap: 10px;
 }
+/* My learning popup*/
+
+.mylearning{
+position: relative;
+}
+.mylearning :hover{
+    cursor: pointer;
+}
+
+.mylearning:hover .mylearning__popup{
+    display: block;
+}
+.mylearning__popup{
+    position: absolute;
+    width: 150px;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 10px;
+    padding: 5px;
+    top: 30px;
+    left: 0px;
+    display: none;
+}
 .categories{
     display: flex;
     flex-direction: row;
@@ -68,6 +91,19 @@ background-color: white;
     background-color: white;
     color: rgb(198, 5, 198);
     
+}
+.sale-image-offer{
+background-color: white;
+width: fit-content;
+height: fit-content;
+position: absolute;
+top: 50px;
+left: 50px;
+padding: 20px;
+border: solid black 1px;
+}
+.saleimage{
+    position: relative;
 }
 .saleimage img{
     width: 100%;
