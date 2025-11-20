@@ -241,7 +241,7 @@ body{
 }
 }
 /* moblie view */
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
 .course-card{
     flex-basis: 40%;
 }
