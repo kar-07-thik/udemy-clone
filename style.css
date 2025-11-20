@@ -241,7 +241,7 @@ body{
 }
 }
 /* moblie view */
-@media screen and (max-width:700px){
+@media screen and (max-width: 600px){
 .course-card{
     flex-basis: 40%;
 }
@@ -259,7 +259,7 @@ body{
 }
 .sale-image-offer{
 width: 20%;
-font-size: 8px;
+font-size: 5px;
 padding: 10px;
 top: 20px;
 left: 20px;
